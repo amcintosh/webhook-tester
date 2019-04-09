@@ -1,0 +1,14 @@
+{
+  "name": "webhook-tester",
+  "description": "Test FB Webhooks with this endpoint.",
+  "image": "heroku/python",
+  "repository": "https://github.com/freshbooks/webhook-tester",
+  "keywords": ["python", "flask" ],
+  "addons": [],
+  "env": {
+    "SECRET_KEY": {
+      "description": "The secret key for the application.",
+      "generator": "secret"
+    }
+  }
+}
