@@ -8,7 +8,7 @@ setup(
     url='https://www.freshbooks.com/api/webhooks',
     license='BSD',
     maintainer='FreshBooks',
-    maintainer_email='dev@freshbooks.com',
+    maintainer_email='andrew@amcintosh.net',
     description='Test FB Webhooks with this endpoint.',
     packages=find_packages(),
     include_package_data=True,
